@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Masa de Isótopos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Masa de Isótopos</h1>
+        <form id="massForm">
+            <div class="input-group">
+                <label for="atomicNumber">Número Atómico (Z):</label>
+                <input type="number" id="atomicNumber" name="atomicNumber" required>
+            </div>
+            <div class="input-group">
+                <label for="neutrons">Número de Neutrones (N):</label>
+                <input type="number" id="neutrons" name="neutrons" required>
+            </div>
+            <button type="submit">Calcular</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
